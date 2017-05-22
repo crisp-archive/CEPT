@@ -1,0 +1,343 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CEPT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CEPT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 52
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "¹ØÓÚ CEPT"
+FONT 9, "ËÎÌå"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,5,21,21
+    LTEXT           "CEPT 1.0 °æ",IDC_STATIC,40,13,45,8,SS_NOPREFIX
+    LTEXT           "°æÈ¨ËùÓÐ (C) ÕÅÍîÁú¡£",IDC_STATIC,8,32,119,8
+    DEFPUSHBUTTON   "È·¶¨",IDOK,173,8,50,14,WS_GROUP
+END
+
+IDD_CEPT_DIALOG DIALOGEX 0, 0, 353, 277
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CEPT - »¯Ñ§ÔªËØÖÜÆÚ±í"
+FONT 9, "ËÎÌå"
+BEGIN
+    RTEXT           "Ô­×ÓÐòÊý:",IDC_STATIC,19,212,45,10
+    EDITTEXT        IDC_NUM,68,212,16,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+    RTEXT           "ÔªËØÓ¢ÎÄÃû:",IDC_STATIC,234,227,45,10
+    EDITTEXT        IDC_ENNAME,283,227,53,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    RTEXT           "ÔªËØÖÐÎÄÃû:",IDC_STATIC,19,227,45,10
+    EDITTEXT        IDC_CNNAME,68,227,16,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_SYMBOL,188,212,16,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "ÔªËØ·ûºÅ:",IDC_STATIC,148,212,37,8
+    EDITTEXT        IDC_WEIGHT,283,212,16,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "Ô­×ÓÁ¿:",IDC_STATIC,251,212,29,8
+    RTEXT           "ºËÍâµç×Ó·Ö²¼:",IDC_STATIC,9,241,55,10
+    RTEXT           "ÈÛµã:",IDC_STATIC,162,241,21,10
+    EDITTEXT        IDC_ELECTRON,68,241,78,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_MPOINT,188,241,40,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    RTEXT           "·Ðµã:",IDC_STATIC,258,241,21,10
+    EDITTEXT        IDC_BPOINT,284,241,59,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "------------------------------------------------------------------------------------",
+                    IDC_STATIC,7,197,338,9
+    LTEXT           "¢ñA",IDC_STATIC,22,10,13,8
+    LTEXT           "1",IDC_STATIC,11,25,8,9
+    PUSHBUTTON      "Çâ",IDC_H,21,21,15,16,BS_FLAT
+    PUSHBUTTON      "º¤",IDC_He,325,21,15,16,BS_FLAT
+    PUSHBUTTON      "ï®",IDC_Li,21,39,15,16,BS_FLAT
+    PUSHBUTTON      "îë",IDC_Be,39,39,15,16,BS_FLAT
+    PUSHBUTTON      "Åð",IDC_B,235,39,15,16,BS_FLAT
+    PUSHBUTTON      "Ì¿",IDC_C,253,39,15,16,BS_FLAT
+    PUSHBUTTON      "µª",IDC_N,271,39,15,16,BS_FLAT
+    PUSHBUTTON      "Ñõ",IDC_O,289,39,15,16,BS_FLAT
+    PUSHBUTTON      "·ú",IDC_F,307,39,15,16,BS_FLAT
+    PUSHBUTTON      "ÄÊ",IDC_Ne,325,39,15,16,BS_FLAT
+    LTEXT           "0",IDC_STATIC,331,10,8,8
+    LTEXT           "¢óB ¢ôB  ¢õB ¢öB",IDC_STATIC,60,63,69,8
+    LTEXT           "¢òA",IDC_STATIC,41,27,13,8
+    LTEXT           "¢óB",IDC_STATIC,238,27,12,10
+    PUSHBUTTON      "ÄÆ",IDC_Na,21,57,15,16,BS_FLAT
+    PUSHBUTTON      "Ã¾",IDC_Mg,39,57,15,16,BS_FLAT
+    LTEXT           "4",IDC_STATIC,11,78,8,8
+    LTEXT           "2",IDC_STATIC,11,42,8,10
+    LTEXT           "3",IDC_STATIC,11,60,8,10
+    PUSHBUTTON      "ÂÁ",IDC_Al,235,57,15,16,BS_FLAT
+    PUSHBUTTON      "¹è",IDC_Si,253,57,15,16,BS_FLAT
+    PUSHBUTTON      "Á×",IDC_P,271,57,15,16,BS_FLAT
+    PUSHBUTTON      "Áò",IDC_S,289,57,15,16,BS_FLAT
+    PUSHBUTTON      "ÂÈ",IDC_Cl,307,57,15,16,BS_FLAT
+    PUSHBUTTON      "ë²",IDC_Ar,325,57,15,16,BS_FLAT
+    LTEXT           "5",IDC_STATIC,11,97,8,8
+    LTEXT           "6",IDC_STATIC,11,115,8,8
+    PUSHBUTTON      "¼Ø",IDC_K,21,75,15,16,BS_FLAT
+    PUSHBUTTON      "¸Æ",IDC_Ca,39,75,15,16,BS_FLAT
+    PUSHBUTTON      "îÖ",IDC_Sc,57,75,15,16,BS_FLAT
+    PUSHBUTTON      "îÑ",IDC_Ti,75,75,15,16,BS_FLAT
+    PUSHBUTTON      "·°",IDC_V,93,75,15,16,BS_FLAT
+    PUSHBUTTON      "¸õ",IDC_Cr,111,75,15,16,BS_FLAT
+    PUSHBUTTON      "ÃÌ",IDC_Mn,129,75,15,16,BS_FLAT
+    LTEXT           "¢÷B      ¢øB     ¢ñB  ¢òB ",IDC_STATIC,131,63,100,8
+    PUSHBUTTON      "Ìú",IDC_Fe,147,75,15,16,BS_FLAT
+    PUSHBUTTON      "îÜ",IDC_Co,164,75,15,16,BS_FLAT
+    PUSHBUTTON      "Äø",IDC_Ni,181,75,15,16,BS_FLAT
+    PUSHBUTTON      "Í­",IDC_Cu,199,75,15,16,BS_FLAT
+    PUSHBUTTON      "Ð¿",IDC_Zn,217,75,15,16,BS_FLAT
+    RTEXT           "Æ´Òô:",IDC_STATIC,161,227,22,10
+    EDITTEXT        IDC_PINYIN,188,227,39,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    PUSHBUTTON      "ïØ",IDC_Ga,235,75,15,16,BS_FLAT
+    PUSHBUTTON      "Õà",IDC_Ge,253,75,15,16,BS_FLAT
+    PUSHBUTTON      "Éé",IDC_As,271,75,15,16,BS_FLAT
+    PUSHBUTTON      "Îø",IDC_Se,289,75,15,16,BS_FLAT
+    PUSHBUTTON      "äå",IDC_Br,307,75,15,16,BS_FLAT
+    PUSHBUTTON      "ë´",IDC_Kr,325,75,15,16,BS_FLAT
+    LTEXT           "¢ôB",IDC_STATIC,255,27,14,9
+    LTEXT           "¢õB",IDC_STATIC,273,27,14,8
+    LTEXT           "¢öB",IDC_STATIC,291,27,14,8
+    LTEXT           "¢÷B",IDC_STATIC,308,27,12,9
+    LTEXT           "7",IDC_STATIC,11,133,8,8
+    PUSHBUTTON      "ï¨",IDC_Rb,21,93,15,16,BS_FLAT
+    PUSHBUTTON      "ïÈ",IDC_Sr,39,93,15,16,BS_FLAT
+    PUSHBUTTON      "îÆ",IDC_Y,57,93,15,16,BS_FLAT
+    PUSHBUTTON      "ï¯",IDC_Zr,75,93,15,16,BS_FLAT
+    PUSHBUTTON      "îê",IDC_Nb,93,93,15,16,BS_FLAT
+    PUSHBUTTON      "îâ",IDC_Mo,111,93,15,16,BS_FLAT
+    PUSHBUTTON      "ï½",IDC_Tc,129,93,15,16,BS_FLAT
+    PUSHBUTTON      "îÉ",IDC_Ru,147,93,15,16,BS_FLAT
+    PUSHBUTTON      "îî",IDC_Rh,164,93,15,16,BS_FLAT
+    PUSHBUTTON      "îÙ",IDC_Pd,181,93,15,16,BS_FLAT
+    PUSHBUTTON      "Òø",IDC_Ag,199,93,15,16,BS_FLAT
+    PUSHBUTTON      "ïÓ",IDC_Cd,217,93,15,16,BS_FLAT
+    PUSHBUTTON      "î÷",IDC_In,235,93,15,16,BS_FLAT
+    PUSHBUTTON      "Îý",IDC_Sn,253,93,15,16,BS_FLAT
+    PUSHBUTTON      "Ìà",IDC_Sb,271,93,15,16,BS_FLAT
+    PUSHBUTTON      "íÚ",IDC_Te,289,93,15,16,BS_FLAT
+    PUSHBUTTON      "µâ",IDC_I,307,93,15,16,BS_FLAT
+    PUSHBUTTON      "ë¯",IDC_Xe,325,93,15,16,BS_FLAT
+    PUSHBUTTON      "ï¤",IDC_Cs,21,112,15,16,BS_FLAT
+    PUSHBUTTON      "±µ",IDC_Ba,39,112,15,16,BS_FLAT
+    PUSHBUTTON      "ïç",IDC_La,57,112,15,16,BS_FLAT
+    PUSHBUTTON      "îþ",IDC_Hf,75,112,15,16,BS_FLAT
+    PUSHBUTTON      "îã",IDC_Ta,93,112,15,16,BS_FLAT
+    PUSHBUTTON      "ÎÙ",IDC_W,111,112,15,16,BS_FLAT
+    PUSHBUTTON      "ïª",IDC_Re,129,112,15,16,BS_FLAT
+    PUSHBUTTON      "ï°",IDC_Os,147,112,15,16,BS_FLAT
+    PUSHBUTTON      "Ò¿",IDC_Ir,164,112,15,16,BS_FLAT
+    PUSHBUTTON      "²¬",IDC_Pt,181,112,15,16,BS_FLAT
+    PUSHBUTTON      "½ð",IDC_Au,199,112,15,16,BS_FLAT
+    PUSHBUTTON      "¹¯",IDC_Hg,217,112,15,16,BS_FLAT
+    PUSHBUTTON      "îè",IDC_Tl,235,112,15,16,BS_FLAT
+    PUSHBUTTON      "Ç¦",IDC_Pb,253,112,15,16,BS_FLAT
+    PUSHBUTTON      "îé",IDC_Bi,271,112,15,16,BS_FLAT
+    PUSHBUTTON      "îÇ",IDC_Po,289,112,15,16,BS_FLAT
+    PUSHBUTTON      "íÁ",IDC_At,307,112,15,16,BS_FLAT
+    PUSHBUTTON      "ë±",IDC_Rn,325,112,15,16,BS_FLAT
+    PUSHBUTTON      "îÕ",IDC_Fr,21,130,15,16,BS_FLAT
+    PUSHBUTTON      "ÀØ",IDC_Ra,39,130,15,16,BS_FLAT
+    PUSHBUTTON      "ï¹",IDC_Ac,57,130,15,16,BS_FLAT
+    PUSHBUTTON      "Rf",IDC_Rf,75,130,15,16,BS_FLAT
+    PUSHBUTTON      "Db",IDC_Db,93,130,15,16,BS_FLAT
+    PUSHBUTTON      "Sg",IDC_Sg,111,130,15,16,BS_FLAT
+    PUSHBUTTON      "Bh",IDC_Bh,129,130,15,16,BS_FLAT
+    PUSHBUTTON      "Hs",IDC_Hs,147,130,15,16,BS_FLAT
+    PUSHBUTTON      "Mt",IDC_Mt,164,130,15,16,BS_FLAT
+    PUSHBUTTON      "Uun",IDC_Uun,181,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uuu",IDC_Uuu,199,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uub",IDC_Uub,217,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uut",IDC_Uut,235,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uuq",IDC_Uuq,253,130,15,16,BS_FLAT | WS_DISABLED
+    LTEXT           "ïçÏµ",IDC_STATIC,9,155,8,17
+    PUSHBUTTON      "îæ",IDC_Ce,38,155,15,16,BS_FLAT
+    PUSHBUTTON      "ïè",IDC_Pr,55,155,15,16,BS_FLAT
+    PUSHBUTTON      "îÏ",IDC_Nd,72,155,15,16,BS_FLAT
+    PUSHBUTTON      "îÞ",IDC_Pm,89,155,15,16,BS_FLAT
+    PUSHBUTTON      "îÌ",IDC_Sm,106,155,15,16,BS_FLAT
+    PUSHBUTTON      "îð",IDC_Eu,123,155,15,16,BS_FLAT
+    PUSHBUTTON      "îÅ",IDC_Gd,140,155,15,16,BS_FLAT
+    PUSHBUTTON      "ï«",IDC_Tb,157,155,15,16,BS_FLAT
+    PUSHBUTTON      "ïá",IDC_Dy,174,155,15,16,BS_FLAT
+    PUSHBUTTON      "îØ",IDC_Ho,191,155,15,16,BS_FLAT
+    PUSHBUTTON      "îï",IDC_Er,208,155,15,16,BS_FLAT
+    PUSHBUTTON      "îû",IDC_Tm,225,155,15,16,BS_FLAT
+    PUSHBUTTON      "ïî",IDC_Yb,242,155,15,16,BS_FLAT
+    PUSHBUTTON      "ïå",IDC_Lu,259,155,15,16,BS_FLAT
+    PUSHBUTTON      "ïç",IDC_La2,21,155,15,16,BS_FLAT
+    PUSHBUTTON      "îÊ",IDC_Th,38,174,15,16,BS_FLAT
+    PUSHBUTTON      "õë",IDC_Pa,55,174,15,16,BS_FLAT
+    PUSHBUTTON      "ÓË",IDC_U,72,174,15,16,BS_FLAT
+    PUSHBUTTON      "ïÕ",IDC_Np,89,174,15,16,BS_FLAT
+    PUSHBUTTON      "îÐ",IDC_Pu,106,174,15,16,BS_FLAT
+    PUSHBUTTON      "ïÑ",IDC_Am,123,174,15,16,BS_FLAT
+    PUSHBUTTON      "ï¸",IDC_Cm,140,174,15,16,BS_FLAT
+    PUSHBUTTON      "ïÂ",IDC_Bk,157,174,15,16,BS_FLAT
+    PUSHBUTTON      "ï´",IDC_Cf,174,174,15,16,BS_FLAT
+    PUSHBUTTON      "ïÍ",IDC_Es,191,174,15,16,BS_FLAT
+    PUSHBUTTON      "ïÐ",IDC_Fm,208,174,15,16,BS_FLAT
+    PUSHBUTTON      "îÍ",IDC_Md,225,174,15,16,BS_FLAT
+    PUSHBUTTON      "ï»",IDC_No,242,174,15,16,BS_FLAT
+    PUSHBUTTON      "ï©",IDC_Lr,259,174,15,16,BS_FLAT
+    PUSHBUTTON      "Uup",IDC_Uup,271,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uuh",IDC_Uuh,289,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uus",IDC_Uus,307,130,15,16,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Uuo",IDC_Uuo,325,130,15,16,BS_FLAT | WS_DISABLED
+    LTEXT           "ï¹Ïµ",IDC_STATIC,9,175,8,17
+    PUSHBUTTON      "ï¹",IDC_Ac2,21,174,15,16,BS_FLAT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CEPT Microsoft »ù´¡ÀàÓ¦ÓÃ³ÌÐò\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CEPT\0"
+            VALUE "LegalCopyright", "°æÈ¨ËùÓÐ (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CEPT.EXE\0"
+            VALUE "ProductName", "CEPT Ó¦ÓÃ³ÌÐò\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "¹ØÓÚ CEPT(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CEPT.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
